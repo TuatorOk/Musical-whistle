@@ -13,6 +13,7 @@
 		FABC46A729117E42008120A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC46A529117E42008120A9 /* Main.storyboard */; };
 		FABC46A929117E44008120A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC46A829117E44008120A9 /* Assets.xcassets */; };
 		FABC46AC29117E44008120A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC46AA29117E44008120A9 /* LaunchScreen.storyboard */; };
+		FABC46B429119510008120A9 /* RecordWhistleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46B32911950F008120A9 /* RecordWhistleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FABC46A829117E44008120A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABC46AB29117E44008120A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABC46AD29117E44008120A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABC46B32911950F008120A9 /* RecordWhistleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWhistleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FABC469F29117E42008120A9 /* AppDelegate.swift */,
+				FABC46B32911950F008120A9 /* RecordWhistleViewController.swift */,
 				FABC46A129117E42008120A9 /* SceneDelegate.swift */,
 				FABC46A329117E42008120A9 /* ViewController.swift */,
 				FABC46A529117E42008120A9 /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				FABC46A429117E42008120A9 /* ViewController.swift in Sources */,
 				FABC46A029117E42008120A9 /* AppDelegate.swift in Sources */,
+				FABC46B429119510008120A9 /* RecordWhistleViewController.swift in Sources */,
 				FABC46A229117E42008120A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
