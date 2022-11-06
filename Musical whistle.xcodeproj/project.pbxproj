@@ -18,6 +18,7 @@
 		FABC46BA2912DD92008120A9 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46B92912DD92008120A9 /* SubmitViewController.swift */; };
 		FABC46BE2912E4F1008120A9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC46BD2912E4F1008120A9 /* CloudKit.framework */; };
 		FABC46C4291457B8008120A9 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46C3291457B8008120A9 /* AddCommentsViewController.swift */; };
+		FABC46E629147A6A008120A9 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46E529147A6A008120A9 /* Whistle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FABC46BB2912E4AD008120A9 /* Musical whistle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Musical whistle.entitlements"; sourceTree = "<group>"; };
 		FABC46BD2912E4F1008120A9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		FABC46C3291457B8008120A9 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
+		FABC46E529147A6A008120A9 /* Whistle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				FABC46B52912D88B008120A9 /* SelectGenreViewController.swift */,
 				FABC46A329117E42008120A9 /* ViewController.swift */,
 				FABC46A529117E42008120A9 /* Main.storyboard */,
+				FABC46E529147A6A008120A9 /* Whistle.swift */,
 				FABC46A829117E44008120A9 /* Assets.xcassets */,
 				FABC46AA29117E44008120A9 /* LaunchScreen.storyboard */,
 				FABC46AD29117E44008120A9 /* Info.plist */,
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABC46E629147A6A008120A9 /* Whistle.swift in Sources */,
 				FABC46C4291457B8008120A9 /* AddCommentsViewController.swift in Sources */,
 				FABC46BA2912DD92008120A9 /* SubmitViewController.swift in Sources */,
 				FABC46A429117E42008120A9 /* ViewController.swift in Sources */,
