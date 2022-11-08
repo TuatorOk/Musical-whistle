@@ -56,7 +56,7 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let  cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.accessoryType = .disclosureIndicator
-        cell.textLabel?.attributedText = makeAttributedString(title: whistles[indexPath.row].genre, subtitle: whistles[indexPath.row].comments == nil ? "" : whistles[indexPath.row].comments)
+        cell.textLabel?.attributedText = makeAttributedString(title: whistles[indexPath.row].genre, subtitle: whistles[indexPath.row].comments /*== nil ? "" : whistles[indexPath.row].comments*/)
         cell.textLabel?.numberOfLines = 0
         return cell
     }
@@ -72,7 +72,7 @@ class ViewController: UITableViewController {
         query.sortDescriptors = [sort]
         
         let operation = CKQueryOperation(query: query)
-        operation.desiredKeys = ["genre", "commeents"]
+        operation.desiredKeys = ["genre", "comments"]
         operation.resultsLimit = 50
         
         var  newWhistles = [Whistle]()
@@ -101,6 +101,12 @@ class ViewController: UITableViewController {
             }
         }
         CKContainer.default().publicCloudDatabase.add(operation)
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = ResultsViewController()
+        vc.whistle = whistles[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

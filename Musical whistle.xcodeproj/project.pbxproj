@@ -19,6 +19,7 @@
 		FABC46BE2912E4F1008120A9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABC46BD2912E4F1008120A9 /* CloudKit.framework */; };
 		FABC46C4291457B8008120A9 /* AddCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46C3291457B8008120A9 /* AddCommentsViewController.swift */; };
 		FABC46E629147A6A008120A9 /* Whistle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46E529147A6A008120A9 /* Whistle.swift */; };
+		FABC46E82918654F008120A9 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC46E72918654F008120A9 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		FABC46BD2912E4F1008120A9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		FABC46C3291457B8008120A9 /* AddCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentsViewController.swift; sourceTree = "<group>"; };
 		FABC46E529147A6A008120A9 /* Whistle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whistle.swift; sourceTree = "<group>"; };
+		FABC46E72918654F008120A9 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				FABC46BB2912E4AD008120A9 /* Musical whistle.entitlements */,
 				FABC469F29117E42008120A9 /* AppDelegate.swift */,
+				FABC46E72918654F008120A9 /* ResultsViewController.swift */,
 				FABC46B32911950F008120A9 /* RecordWhistleViewController.swift */,
 				FABC46B92912DD92008120A9 /* SubmitViewController.swift */,
 				FABC46C3291457B8008120A9 /* AddCommentsViewController.swift */,
@@ -172,6 +175,7 @@
 				FABC46BA2912DD92008120A9 /* SubmitViewController.swift in Sources */,
 				FABC46A429117E42008120A9 /* ViewController.swift in Sources */,
 				FABC46A029117E42008120A9 /* AppDelegate.swift in Sources */,
+				FABC46E82918654F008120A9 /* ResultsViewController.swift in Sources */,
 				FABC46B62912D88B008120A9 /* SelectGenreViewController.swift in Sources */,
 				FABC46B429119510008120A9 /* RecordWhistleViewController.swift in Sources */,
 				FABC46A229117E42008120A9 /* SceneDelegate.swift in Sources */,
