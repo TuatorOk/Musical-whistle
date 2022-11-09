@@ -21,6 +21,8 @@ class ViewController: UITableViewController {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Home", style: .plain, target: nil, action: nil)
         
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Genres", style: .plain, target: self, action: #selector(selectGenre))
     }
     @objc func addWhistle() {
         let vc = RecordWhistleViewController()
@@ -106,6 +108,11 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = ResultsViewController()
         vc.whistle = whistles[indexPath.row]
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func selectGenre() {
+        let vc = MyGenresViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
 }
